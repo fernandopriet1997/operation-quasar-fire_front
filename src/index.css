@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Aurabesh';
+  src: url('fonts/Aurebesh.ttf');
+}
+@font-face {
+  font-family: 'Aurabesh Bold';
+  src: url('fonts/Aurebesh_Bold.otf');
+}
+@font-face {
+  font-family: 'Aurabesh Italic';
+  src: url('fonts/Aurebesh_Italic.ttf');
+}
+@font-face {
+  font-family: 'Aurabesh Bold Italic';
+  src: url('fonts/Aurebesh_Bold_Italic.ttf');
+}
+@font-face {
+  font-family: 'Aurabesh Condensed';
+  src: url('fonts/Aurebesh_Condensed.ttf');
+}
+@font-face {
+  font-family: 'Aurabesh Condensed Italic';
+  src: url('fonts/Aurebesh_Condensed_Italic.ttf');
+}
+@font-face {
+  font-family: 'Aurabesh Condensed Bold Italic';
+  src: url('fonts/Aurebesh_Condensed_Bold_Italic.ttf');
+}
+@font-face {
+  font-family: 'Aurabesh Variant';
+  src: url('fonts/Aurebesh_Variant.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
