@@ -21,6 +21,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import Typography from '@mui/material/Typography';
 
 import { useTranslation } from "react-i18next";
 export default function App() {
@@ -37,7 +38,6 @@ export default function App() {
   };
   const handleClose = param => () => {
 
-
     setLang(param)
     if(param === 'en' || param === 'es'){
       setAur(false)
@@ -52,7 +52,7 @@ export default function App() {
     <div style={{position: 'relative', overflow: "hidden"}} className={aur ? 'aurabesh' : ''}>
       <Router>
         <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="fixed"  style={{zIndex: 10000, background: 'black'}}>
+          <AppBar position="relative"  style={{zIndex: 10000, background: 'black'}}>
             <Toolbar>
               <Link to="/" >
                 <Button>
@@ -62,17 +62,7 @@ export default function App() {
               <Box sx={{ flexGrow: 1 }} />
               <Button color="primary">
                 <Link to="/documentation" className={aur ? 'link-white aurabesh-condensed' : 'link-white'}>
-                  {t('documentation')}
-                </Link>
-              </Button>
-              <Button color="primary">
-                <Link to="/showcase" className={aur ? 'link-white aurabesh-condensed' : 'link-white'}>
-                  ShowCase
-                </Link>
-              </Button>
-              <Button color="primary">
-                <Link to="/api" className={aur ? 'link-white aurabesh-condensed' : 'link-white'}>
-                  API
+                  documentación
                 </Link>
               </Button>
               <Button
@@ -94,7 +84,6 @@ export default function App() {
                 }}
               >
                 <MenuItem onClick={handleClose("es")}>Español</MenuItem>
-                <MenuItem onClick={handleClose("en")}>English</MenuItem>
                 <MenuItem onClick={handleClose("aur")}>Aurabesh</MenuItem>
               </Menu>
             </Toolbar>
@@ -115,6 +104,15 @@ export default function App() {
           </Route>
         </Switch>
       </Router>
+      <Box sx={{ flexGrow: 1 }}>
+          <AppBar position="relative"  style={{ zIndex: 10000,background: 'black'}}>
+            <Toolbar>
+              <Typography caption color="gray" className={aur ? 'aurabesh ' : ''}>
+                Aplicacion desarrollada por Fernando Prieto para el proceso de selección de Mercado Libre
+              </Typography>
+            </Toolbar>
+          </AppBar>
+        </Box>
     </div>
   );
 }
