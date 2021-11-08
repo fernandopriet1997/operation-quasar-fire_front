@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/operation-quasar-fire_front/static/css/main.d12ced13.chunk.css",
+    "main.js": "/operation-quasar-fire_front/static/js/main.18d0bdf7.chunk.js",
+    "main.js.map": "/operation-quasar-fire_front/static/js/main.18d0bdf7.chunk.js.map",
+    "runtime-main.js": "/operation-quasar-fire_front/static/js/runtime-main.64ee3796.js",
+    "runtime-main.js.map": "/operation-quasar-fire_front/static/js/runtime-main.64ee3796.js.map",
+    "static/css/2.68ba508b.chunk.css": "/operation-quasar-fire_front/static/css/2.68ba508b.chunk.css",
+    "static/js/2.9645f6ba.chunk.js": "/operation-quasar-fire_front/static/js/2.9645f6ba.chunk.js",
+    "static/js/2.9645f6ba.chunk.js.map": "/operation-quasar-fire_front/static/js/2.9645f6ba.chunk.js.map",
+    "static/js/3.d535c63a.chunk.js": "/operation-quasar-fire_front/static/js/3.d535c63a.chunk.js",
+    "static/js/3.d535c63a.chunk.js.map": "/operation-quasar-fire_front/static/js/3.d535c63a.chunk.js.map",
+    "index.html": "/operation-quasar-fire_front/index.html",
+    "static/css/2.68ba508b.chunk.css.map": "/operation-quasar-fire_front/static/css/2.68ba508b.chunk.css.map",
+    "static/css/main.d12ced13.chunk.css.map": "/operation-quasar-fire_front/static/css/main.d12ced13.chunk.css.map",
+    "static/js/2.9645f6ba.chunk.js.LICENSE.txt": "/operation-quasar-fire_front/static/js/2.9645f6ba.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/operation-quasar-fire_front/static/media/Aurebesh_Variant.9c54a4a1.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64ee3796.js",
+    "static/css/2.68ba508b.chunk.css",
+    "static/js/2.9645f6ba.chunk.js",
+    "static/css/main.d12ced13.chunk.css",
+    "static/js/main.18d0bdf7.chunk.js"
+  ]
+}
