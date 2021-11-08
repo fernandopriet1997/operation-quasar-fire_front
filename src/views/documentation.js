@@ -566,7 +566,7 @@ export default class Documentation extends Component {
                       <TableRow
                         sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                       >
-                        <TableCell component="th" scope="row"><code>/topsecret_split</code></TableCell>
+                        <TableCell component="th" scope="row"><code>/topsecret_reset</code></TableCell>
                         <TableCell align="right">DELETE</TableCell>
                         <TableCell align="right"><code>none</code></TableCell>
                         <TableCell align="right"><code>none</code></TableCell>
